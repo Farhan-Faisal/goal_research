@@ -4,3 +4,5 @@
 /data/archive
 /data/proc
 /data/proc
+/archive
+.env

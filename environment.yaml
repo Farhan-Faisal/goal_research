@@ -1,0 +1,23 @@
+name: goal-embed
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - numpy=1.26.4
+  - pandas=2.2.2
+  - scipy=1.11.4
+  - statsmodels=0.14.2
+  - matplotlib=3.8.4
+  - seaborn=0.13.2
+  - tqdm=4.66.4
+  - patsy=0.5.6
+  - ipykernel=6.29.5
+  - pip=24.2
+  - pip:
+      - openai>=1.40,<2.0
+      - langchain>=0.2,<0.3
+      - langchain-community>=0.2,<0.3
+      - langchain-openai>=0.1,<0.3
+      - typing-extensions>=4.9,<5.0
+      - python-dotenv>=1.0,<2.0
